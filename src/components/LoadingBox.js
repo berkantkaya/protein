@@ -1,0 +1,9 @@
+import React from 'react'
+import {LinearProgress} from '@material-ui/core'
+export default function LoadingBox() {
+    return (
+        <div>
+            loading <LinearProgress color="secondary" />
+        </div>
+    )
+}

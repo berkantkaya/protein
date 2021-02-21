@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.navbarr{
+    background-color: black;
+    color: darkgrey;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    position: sticky;
+    top:0;
+    z-index: 500;
+    
+}
+.navbarr ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbarr ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+    border-right: 1px solid white;
+    padding:3px 9px;
+}
+.navbarr ul .borderbir{
+    border-bottom: 6px solid red;
+    padding-top: 3px;
+
+}
+.navbarr ul .borderiki{
+    border-bottom: 6px solid blue;
+    padding-top: 3px;
+
+}
+.navbarr ul .textt{
+    text-decoration: none;
+    color: darkgrey;
+
+}
+.navbarr ul .borderuc{
+    border-bottom: 6px solid blueviolet;
+    padding-top: 3px;
+
+}
+.navbarr ul .borderdort{
+    border-bottom: 6px solid green;
+    padding-top: 3px;
+
+}
+.navbarr ul .borderbes{
+    border-bottom: 6px solid goldenrod;
+    padding-top: 3px;
+
+}
+.navbarr ul .borderalti{
+    border-bottom: 6px solid royalblue;
+}
+.navbarr ul .borderyedi{
+    border-bottom: 6px solid deeppink;
+}
+.navbarr ul .bordersekiz{
+    border-bottom: 6px solid orange;
+    padding-top: 3px;
+
+}
+.navbarr ul .borderdokuz{
+    border-bottom: 6px solid rosybrown;
+    padding-top: 3px;
+
+}
+.navbarr .leftborder{
+    border-left: 1px solid white;
+}
+.navbarr ul li:hover{
+    color: white;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+    transform: scale(1.1,1.1);
+}
+.sepet{
+    border:1px solid brown;
+    padding:3px 4px;
+    font-size: 12px;
+    border-radius: 20px 20px 0px 20px;
+    background-color: brown;
+    color: black;
+    font-weight: bolder;
+}
+@media screen and (max-width:700px){
+    .navbarr{
+        background-color: black;
+        color: darkgrey;
+        font-family: 'Dancing Script', cursive;
+        font-size: 12px;
+        position: sticky;
+        top:0;
+        z-index: 500;
+        
+    }
+    .navbarr ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin:3px;
+        border:none;
+        padding:3px 4px;
+    }
+    ul li #switc{
+        font-size: 10px;
+        color:blue
+    }
+    .navbarr .leftborder{
+        border-left:none;
+    }
+}
+@media screen and (max-width:480px){
+    .navbarr{
+        background-color: black;
+        color: darkgrey;
+        font-family: 'Dancing Script', cursive;
+        font-size: 11px;
+        position: sticky;
+        top:0;
+        z-index: 500;
+        
+    }
+    .navbarr ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin:2px;
+        border:none;
+        padding:2px 3px;
+    }
+    ul li #switc{
+        font-size: 10px;
+        color:blue
+    }
+    .navbarr .leftborder{
+        border-left:none;
+    }
+    .kaldir{
+        display: none;
+    }
+    .navbarr ul .borderbir{
+        border-bottom: 3px solid red;
+        padding-top: 3px;
+    
+    }
+    .navbarr ul .borderiki{
+        border-bottom: 3px solid blue;
+        padding-top: 3px;
+    
+    }
+    .navbarr ul .borderuc{
+        border-bottom: 3px solid blueviolet;
+        padding-top: 3px;
+    
+    }
+    .navbarr ul .borderdort{
+        border-bottom: 3px solid green;
+        padding-top: 3px;
+    
+    }
+    .navbarr ul .borderbes{
+        border-bottom: 3px solid goldenrod;
+        padding-top: 3px;
+    
+    }
+    .navbarr ul .borderalti{
+        border-bottom: 3px solid royalblue;
+    }
+    .navbarr ul .borderyedi{
+        border-bottom: 3px solid deeppink;
+    }
+    .navbarr ul .bordersekiz{
+        border-bottom: 3px solid orange;
+        padding-top: 3px;
+    
+    }
+    .navbarr ul .borderdokuz{
+        border-bottom: 3px solid rosybrown;
+        padding-top: 3px;
+    
+    }
+    .sepet{
+        border:1px solid brown;
+        padding:1px 2px;
+        font-size: 8px;
+        border-radius: 20px 20px 0px 20px;
+        background-color: brown;
+        color: black;
+        font-weight: bolder;
+    }
+}

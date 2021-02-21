@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@500&display=swap');
+.caro{
+    position: sticky;
+    top:-250px;
+    z-index: 500;
+}
+.resimm{
+    width:100%;
+    height:700px;
+    object-fit: contain;
+    background-color: black;
+}
+.resimmm{
+    width:100%;
+    height:700px;
+    object-fit: contain;
+    background-color: black;
+}
+.resimmmm{
+    width:100%;
+    height:700px;
+    object-fit: contain;
+    background-color:black;
+}
+  #but{
+   margin-bottom:210px
+  }
+
+ #but button{
+    font-size: 25px;
+    text-transform: capitalize;
+    padding:4px 8px;
+    font-weight: bolder;
+    box-shadow: 3px 3px 10px white;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Caveat', cursive;
+    border-radius: 10px;
+
+}
+#but button span{
+    margin-right: 3px;
+}
+#but button:hover{
+    background-color: black;
+    color:white;
+}
+.textt{
+    text-decoration: none;
+    color:#fff
+}
+.textt:hover{
+    color:white
+}

@@ -1,0 +1,17 @@
+.alertt{
+    text-align:center;
+    font-size: 20px;
+    background-color: rgb(16, 17, 17);
+    background-color: rgb(163, 23, 18);
+    max-width: 70%;
+    margin: auto;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 10px;
+    letter-spacing: 0px;
+}
+@media screen and (max-width:500px){
+    .alertt{
+        font-size: 12px;
+    }
+}
